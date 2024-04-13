@@ -1,0 +1,15 @@
+build
+coverage
+e2e
+node_modules
+auth-page
+keystore
+plugins
+resources
+typings
+www
+.history
+.vscode
+.scannerwork
+.angular
+polyfills.ts
