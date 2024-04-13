@@ -9,6 +9,6 @@ import { FooterComponent } from './components/footer/footer.component'
     FooterComponent
   ],
   imports: [CommonModule],
-  exports: [MenuComponent]
+  exports: [MenuComponent, FooterComponent]
 })
 export class SharedModule {}
