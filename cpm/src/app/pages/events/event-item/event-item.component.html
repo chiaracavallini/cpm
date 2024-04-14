@@ -11,10 +11,13 @@
       <span class="d-flex flex-column title me-2">
         {{ event.title }}
       </span>
-      <div *ngFor="let path of iconPaths" class="icon-wrapper">
+      <div
+        *ngFor="let path of iconPaths"
+        class="icon-wrapper"
+      >
         <img
-            [src]="path"
-            alt=""
+          [src]="path"
+          alt=""
         />
       </div>
     </div>
@@ -23,10 +26,22 @@
     </span>
     <div class="d-flex flex-row gap-2">
       <span>
-        <i><small>con</small></i>
+        <small>con</small>
       </span>
       <span>{{ speakersLabel }}</span>
     </div>
+  </div>
+  <div class="d-flex flex-column col-2 gap-2">
+    <span>
+      <small>Intero:</small>
+      <b> {{ event.fullPrice }}</b>
+      <small> €</small>
+    </span>
+    <span>
+      <small>Ridotto:</small>
+      <b> {{ event.discountedPrice }}</b>
+      <small> €</small></span
+    >
   </div>
   <div class="d-flex flex-column col-1 gap-2">
     <div class="d-flex flex-row gap-2">
