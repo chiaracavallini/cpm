@@ -2,12 +2,13 @@
   <div class="me-2" (click)="navigateToHome()">
     <img
       alt="cpm_logo"
-      src="https://www.planetariodimodena.it/img/logo2.png"
+      src="./assets/images/logo.png"
     />
   </div>
   <div
     *ngFor="let button of menuButtons"
     class="d-flex flex-column flex-grow-1 align-items-center menu-button"
+    [class.selected-button]="checkSelectedButton(button.path)"
     (click)="onNavigate(button.path)"
   >
     {{ button.label }}

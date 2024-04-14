@@ -1,6 +1,6 @@
 import { Component } from '@angular/core'
 import { MenuConfig } from '../../models/menu-config'
-import {Router} from "@angular/router";
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'cpm-menu',
@@ -43,10 +43,17 @@ export class MenuComponent {
     }
   ]
 
+  selectedButton: string = ''
+
   constructor(private readonly router: Router) {}
 
   onNavigate(path: string): void {
     this.router.navigate([path])
+    this.selectedButton = path
+  }
+
+  checkSelectedButton(path: string): boolean {
+    return this.selectedButton === path
   }
 
   navigateToHome(): void {
