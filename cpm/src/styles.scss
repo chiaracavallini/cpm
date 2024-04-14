@@ -5,3 +5,10 @@ $secondary: #15324C;
 h2 {
   color: #{$primary};
 }
+
+.list-item-card {
+  border-width: 1px 3px 3px 1px;
+  border-style: solid;
+  border-color: #{$secondary} #{$primary} #{$primary} #{$secondary};
+  border-radius: 5px;
+}

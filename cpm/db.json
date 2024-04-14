@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "id": "0001",
+      "id": "event0001",
       "title": "Curiosando tra le stelle",
       "subtitle": "Dal Sole ai buchi neri... le tante meraviglie del cielo!",
       "description": "Stelle che pulsano, esplodono e inghiottono altre stelle!! Questi e altri fenomeni, affascinanti e straordinari, che riguardano il nostro universo, verranno presentati e spiegati ai piccoli appassionati di astronomia per soddisfare la loro curiosità, poi a seguire la realizzazione di un lavoretto sul tema completerà il pomeriggio. Stelle che pulsano, stelle che ruotano velocissime e “catturano la luce”, resti di antiche esplosioni stellari e tanti oggetti straordinari del nostro universo che aspettano solo te per essere studiati! Un pomeriggio per astronomi in erba e piccoli curiosi per conoscere meglio il cielo!",
@@ -11,31 +11,31 @@
       "time": "15:30",
       "duration": "2h",
       "types": ["Domenica - Famiglie"],
-      "locations": ["DOME", "CONFERENCE_ROOM"],
+      "locations": ["Cupola", "Aula Magna"],
       "firstSpeaker": {
         "firstName": "Laura",
         "lastName": "Del Pennino",
         "fullName": "Laura Del Pennino",
-        "roles": ["GENERIC", "PLANETARIST"]
+        "roles": ["Generico", "Planetarista"]
       },
       "secondSpeaker": {
         "firstName": "Edoardo",
         "lastName": "Borciani",
         "fullName": "Edoardo Borciani",
-        "roles": ["GENERIC", "SECRETARY"]
+        "roles": ["Generico", "Segreteria"]
       },
       "frontDesk": {
         "firstName": "Edoardo",
         "lastName": "Borciani",
         "fullName": "Edoardo Borciani",
-        "roles": ["GENERIC", "SECRETARY"]
+        "roles": ["Generico", "Segreteria"]
       },
       "fullPrice": 7,
       "discountedPrice": 5,
       "imageUrl": "../assets/images/curiosando.png"
     },
     {
-      "id": "0002",
+      "id": "event0002",
       "title": "La Luna al telescopio",
       "subtitle": "Sulle orme di Galileo",
       "description": "Da più di quattro secoli l’uomo può apprezzare le meraviglie del cosmo attraverso il telescopio. La Luna, il corpo celeste più vicino al nostro pianeta, offre uno spettacolo unico e affascinante: i suoi crateri e i suoi rilievi, se osservati al telescopio, suscitano ancora oggi le emozioni provate da Galilei poco più di 400 anni fa, mostrandoci ancora oggi la vera natura del nostro satellite. Mercoledì 17 Aprile 2024 alle ore 21:00 il Planetario di Modena organizza un evento dedicato interamente alla Luna. In questa occasione, dopo una breve introduzione presso la cupola del Planetario, si salirà sulla terrazza dell’edificio, dove è installato il telescopio per l’osservazione astronomica. In caso di maltempo l’osservazione sarà sostituita da una conferenza sul nostro satellite presso la cupola del Planetario.",
@@ -50,26 +50,26 @@
         "firstName": "Rita",
         "lastName": "Scaffidi",
         "fullName": "Rita Scaffidi",
-        "roles": ["SECRETARY", "GENERIC", "PLANETARIST"]
+        "roles": ["Generico", "Segreteria", "Planetarista"]
       },
       "jolly": {
         "firstName": "Luca",
         "lastName": "Reggiani",
         "fullName": "Luca Reggiani",
-        "roles": ["GENERIC"]
+        "roles": ["Generico"]
       },
       "frontDesk": {
         "firstName": "Gianluca",
         "lastName": "Manni",
         "fullName": "Gianluca Manni",
-        "roles": ["GENERIC", "SECRETARY"]
+        "roles": ["Generico", "Segreteria"]
       },
       "fullPrice": 8,
       "discountedPrice": 6,
       "imageUrl": "../assets/images/luna.png"
     },
     {
-      "id": "0003",
+      "id": "event0003",
       "title": "Dal cannocchiale ai telescopi spaziali",
       "subtitle": "La storia dello strumento che ha cambiato l'Astronomia",
       "description": "L'uomo, fin dalla sua comparsa sulla Terra, ha rivolto gli occhi al cielo nel tentativo di svelarne i misteri. Per secoli ha cercato di spingere lo sguardo sempre più lontano, verso i più piccoli oggetti del Cosmo fino ad accorgersi che, per saziare la propria sete di conoscenza, la sola vista non bastava più. Allora, il grande scienziato Galileo Galilei studia le proprietà delle lenti e perfeziona il proprio cannocchiale al punto che, nel 1610, osserva ciò che nessuno aveva mai osservato prima, spalancando le porte della moderna Astronomia con alcune sensazionali scoperte. Da allora, l'evoluzione degli strumenti di indagine del cielo non si è mai fermata… Percorreremo insieme le tappe più significative della storia del telescopio, lo strumento che più di ogni altro ha permesso agli studiosi di tutto il mondo di osservare e comprendere ogni remoto angolo del nostro Universo (durata 1 ora circa). A seguire, se le condizioni meteo lo permettono, sarà possibile osservare il Sole con speciali telescopi in dotazione al Planetario di Modena. In alternativa, sarà proposta un’attività di laboratorio.",
@@ -79,24 +79,24 @@
       "time": "15:30",
       "duration": "2h",
       "types": ["Domenica - Famiglie"],
-      "locations": ["DOME", "CONFERENCE_ROOM"],
+      "locations": ["Cupola", "Aula Magna"],
       "firstSpeaker": {
         "firstName": "Michele",
         "lastName": "Donà",
         "fullName": "Michele Donà",
-        "roles": ["GENERIC", "PLANETARIST"]
+        "roles": ["Generico", "Planetarista"]
       },
       "secondSpeaker": {
         "firstName": "Laura",
         "lastName": "Gorrieri",
         "fullName": "Laura Gorrieri",
-        "roles": ["GENERIC", "SECRETARY"]
+        "roles": ["Generico", "Segreteria"]
       },
       "frontDesk": {
         "firstName": "Laura",
         "lastName": "Gorrieri",
         "fullName": "Laura Gorrieri",
-        "roles": ["GENERIC", "SECRETARY"]
+        "roles": ["Generico", "Segreteria"]
       },
       "fullPrice": 7,
       "discountedPrice": 5,
@@ -108,61 +108,97 @@
       "firstName": "Chiara",
       "lastName": "Cavallini",
       "fullName": "Chiara Cavallini",
-      "roles": ["SECRETARY", "GENERIC"]
+      "roles": ["Generico", "Segreteria"]
     },
     {
       "firstName": "Sara",
       "lastName": "Cavallini",
       "fullName": "Sara Cavallini",
-      "roles": ["SECRETARY", "GENERIC", "PLANETARIST"]
+      "roles": ["Generico", "Segreteria", "Planetarista"]
     },
     {
       "firstName": "Rita",
       "lastName": "Scaffidi",
       "fullName": "Rita Scaffidi",
-      "roles": ["SECRETARY", "GENERIC", "PLANETARIST"]
+      "roles": ["Generico", "Segreteria", "Planetarista"]
     },
     {
       "firstName": "Enrico",
       "lastName": "Artioli",
       "fullName": "Enrico Artioli",
-      "roles": ["CHIEF", "GENERIC", "SECRETARY"]
+      "roles": ["Direttore", "Generico", "Segreteria"]
     },
     {
       "firstName": "Luca",
       "lastName": "Reggiani",
       "fullName": "Luca Reggiani",
-      "roles": ["GENERIC"]
+      "roles": ["Generico"]
     },
     {
       "firstName": "Gianluca",
       "lastName": "Manni",
       "fullName": "Gianluca Manni",
-      "roles": ["GENERIC", "SECRETARY"]
+      "roles": ["Generico", "Segreteria"]
     },
     {
       "firstName": "Laura",
       "lastName": "Del Pennino",
       "fullName": "Laura Del Pennino",
-      "roles": ["GENERIC", "PLANETARIST"]
+      "roles": ["Generico", "Planetarista"]
     },
     {
       "firstName": "Edoardo",
       "lastName": "Borciani",
       "fullName": "Edoardo Borciani",
-      "roles": ["GENERIC", "SECRETARY"]
+      "roles": ["Generico", "Segreteria"]
     },
     {
       "firstName": "Michele",
       "lastName": "Donà",
       "fullName": "Michele Donà",
-      "roles": ["GENERIC", "PLANETARIST"]
+      "roles": ["Generico", "Planetarista"]
     },
     {
       "firstName": "Laura",
       "lastName": "Gorrieri",
       "fullName": "Laura Gorrieri",
-      "roles": ["GENERIC", "SECRETARY"]
+      "roles": ["Generico", "Segreteria"]
+    },
+    {
+      "firstName": "Claudio",
+      "lastName": "Berselli",
+      "fullName": "Claudio Berselli",
+      "roles": ["Planetarista", "Segreteria"]
+    }
+  ],
+  "sda-courses": [
+    {
+      "id": "sda0001",
+      "title": "Navigazione Astronomica",
+      "duration": 12,
+      "startDate": "martedì 5 marzo ore 21:00",
+      "price": 90,
+      "attachmentUrl": "https://www.planetariodimodena.it/download/scuolaastronomia/navigazione.pdf",
+      "teacher": {
+        "firstName": "Claudio",
+        "lastName": "Berselli",
+        "fullName": "Claudio Berselli",
+        "roles": ["Planetarista", "Segreteria"]
+      }
+    },
+    {
+      "id": "sda0002",
+      "title": "I segreti del telescopio",
+      "duration": 4,
+      "startDate": "mercoledì 10 aprile ore 21:00",
+      "price": 30,
+      "attachmentUrl": "https://www.planetariodimodena.it/download/scuolaastronomia/telescopio2.pdf",
+      "teacher": {
+        "firstName": "Michele",
+        "lastName": "Donà",
+        "fullName": "Michele Donà",
+        "roles": ["Generico", "Planetarista"]
+      }
     }
   ]
 }

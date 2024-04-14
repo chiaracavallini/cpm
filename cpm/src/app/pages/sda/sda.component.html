@@ -1,1 +1,41 @@
-<p>sda works!</p>
+<div class="container mt-4">
+  <h2 class="mb-4">Scuola di Astronomia 2023 - 2024</h2>
+  <div class="d-flex flex-column">
+    <p>
+      Anche per la stagione 2023-2024, il Centro Sperimentale per la Didattica dell'Astronomia organizza, presso il
+      Civico Planetario "F. Martino", una Scuola di Astronomia rivolta ad appassionati di ogni età, studenti e docenti.
+    </p>
+    <p>
+      I corsi della Scuola di Astronomia possono essere fruiti singolarmente oppure concatenati a formare un vero e
+      proprio percorso di formazione in ambito astronomico.
+    </p>
+    <div
+      *ngFor="let course of sdaCoursesList"
+      class="list-item-card p-2 d-flex flex-row gap-2 align-items-center mb-2"
+    >
+      <div class="d-flex flex-column col-4">
+        <h5>Corso</h5>
+        {{course.title}}
+      </div>
+      <div class="d-flex flex-column col-1">
+        <h5>Durata</h5>
+        {{course.duration}} ore
+      </div>
+      <div class="d-flex flex-column col-3">
+        <h5>Data inizio</h5>
+        {{course.startDate}}
+      </div>
+      <div class="d-flex flex-column col-1">
+        <h5>Prezzo</h5>
+        {{course.price}} €
+      </div>
+      <div class="d-flex flex-column col-2">
+        <h5>Docente</h5>
+        {{course.teacher?.fullName}}
+      </div>
+      <div>
+        <img src="./assets/icons/document-text-outline-blue.svg" alt="course documentation icon" (click)="openAttachmentDownloadPage(course.attachmentUrl!)">
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,58 +1,51 @@
-.event-card {
-  border-width: 1px 3px 3px 1px;
-  border-style: solid;
-  border-color: #15324c #0082c9 #0082c9 #15324c;
-  border-radius: 5px;
+img {
+  max-width: 25px;
+}
 
-  img {
-    max-width: 25px;
+b {
+  color: #15324c;
+}
+
+small {
+  font-style: italic;
+}
+
+.title {
+  color: #0082c9;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 25px;
+}
+
+.date-col {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #15324c;
+  color: #fff;
+  float: left;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 15px;
+  .day {
+    display: block;
+    font-size: 12px;
+    text-transform: capitalize;
   }
-
-  b {
-    color: #15324c;
+  .month {
+    display: block;
+    font-size: 12px;
+    text-transform: capitalize;
   }
-
-  small {
-    font-style: italic;
-  }
-
-  .title {
-    color: #0082c9;
-    font-weight: 600;
-    font-size: 20px;
-  }
-
-  .icon-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 25px;
-  }
-
-  .date-col {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background: #15324c;
-    color: #fff;
-    float: left;
-    line-height: 30px;
-    text-align: center;
-    margin-right: 15px;
-    .day {
-      display: block;
-      font-size: 12px;
-      text-transform: capitalize;
-    }
-    .month {
-      display: block;
-      font-size: 12px;
-      text-transform: capitalize;
-    }
-    .date {
-      display: block;
-      font-size: 24px;
-      font-weight: bold;
-      line-height: 12px;
-    }
+  .date {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 12px;
   }
 }
