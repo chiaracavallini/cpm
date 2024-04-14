@@ -4,10 +4,20 @@
   border-color: #15324c #0082c9 #0082c9 #15324c;
   border-radius: 5px;
 
+  img {
+    max-width: 25px;
+  }
+
   .title {
     color: #0082c9;
     font-weight: 600;
     font-size: 20px;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 25px;
   }
 
   .date-col {

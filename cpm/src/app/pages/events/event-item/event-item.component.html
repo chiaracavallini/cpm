@@ -1,13 +1,23 @@
-<div class="event-card p-2 d-flex flex-row gap-2">
-  <div class="d-flex flex-column date-col">
-    <span class="day">{{ event.day }}</span>
-    <span class="date">{{ event.date }}</span>
-    <span class="month">{{ event.month }}</span>
-  </div>
+<div class="event-card p-2 d-flex flex-row gap-2 align-items-center">
   <div class="d-flex flex-column">
-    <span class="title">
-      {{ event.title }}
-    </span>
+    <div class="date-col">
+      <span class="day">{{ event.day }}</span>
+      <span class="date">{{ event.date }}</span>
+      <span class="month">{{ event.month }}</span>
+    </div>
+  </div>
+  <div class="d-flex flex-column flex-grow-1">
+    <div class="d-flex flex-row gap-2 align-items-center">
+      <span class="d-flex flex-column title me-2">
+        {{ event.title }}
+      </span>
+      <div *ngFor="let path of iconPaths" class="icon-wrapper">
+        <img
+            [src]="path"
+            alt=""
+        />
+      </div>
+    </div>
     <span class="subtitle">
       {{ event.subtitle }}
     </span>
@@ -17,5 +27,31 @@
       </span>
       <span>{{ speakersLabel }}</span>
     </div>
+  </div>
+  <div class="d-flex flex-column col-1 gap-2">
+    <div class="d-flex flex-row gap-2">
+      <img
+        alt="time icon"
+        src="./assets/icons/time-outline-blue.svg"
+      />
+      <span>{{ event.time }}</span>
+    </div>
+    <div class="d-flex flex-row gap-2">
+      <img
+        alt="duration icon"
+        src="./assets/icons/timer-outline-blue.svg"
+      />
+      <span>{{ event.duration }}</span>
+    </div>
+  </div>
+  <div class="d-flex flex-column col-1 gap-2 align-items-end">
+    <img
+      alt="time icon"
+      src="./assets/icons/ticket-outline-blue.svg"
+    />
+    <img
+      alt="duration icon"
+      src="./assets/icons/expand-outline-blue.svg"
+    />
   </div>
 </div>

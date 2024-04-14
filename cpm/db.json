@@ -10,7 +10,7 @@
       "day": "dom",
       "time": "15:30",
       "duration": "2h",
-      "types": ["FAMILY_SUNDAY"],
+      "types": ["Domenica - Famiglie"],
       "locations": ["DOME", "CONFERENCE_ROOM"],
       "firstSpeaker": {
         "firstName": "Laura",
@@ -44,7 +44,7 @@
       "month": "apr",
       "time": "21:00",
       "duration": "1h 30m",
-      "types": ["CONFERENCE","OBSERVATION"],
+      "types": ["Conferenza","Osservazione"],
       "locations": ["DOME", "TERRACE"],
       "firstSpeaker": {
         "firstName": "Rita",
@@ -78,7 +78,7 @@
       "day": "dom",
       "time": "15:30",
       "duration": "2h",
-      "types": ["FAMILY_SUNDAY"],
+      "types": ["Domenica - Famiglie"],
       "locations": ["DOME", "CONFERENCE_ROOM"],
       "firstSpeaker": {
         "firstName": "Michele",

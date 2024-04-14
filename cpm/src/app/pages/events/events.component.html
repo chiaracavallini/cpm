@@ -8,9 +8,11 @@
     <div class="mb-4">
       <h5>Modalità:</h5>
       <div>
-        La prenotazione è obbligatoria ed occorre essere presenti presso la struttura del Planetario almeno 20 minuti prima dell'orario di inizio degli eventi: ad evento iniziato non è ammesso l’ingresso.<br>
-        La prenotazione è da considerarsi effettuata al ricevimento della mail di conferma.<br>
-        L'osservazione diretta del cielo tramite telescopio, per gli eventi che la prevedono, sarà svolta compatibilmente con le condizioni atmosferiche
+        La prenotazione è obbligatoria ed occorre essere presenti presso la struttura del Planetario almeno 20 minuti
+        prima dell'orario di inizio degli eventi: ad evento iniziato non è ammesso l’ingresso.<br />
+        La prenotazione è da considerarsi effettuata al ricevimento della mail di conferma.<br />
+        L'osservazione diretta del cielo tramite telescopio, per gli eventi che la prevedono, sarà svolta
+        compatibilmente con le condizioni atmosferiche
       </div>
     </div>
     <div class="mb-4">
@@ -26,25 +28,69 @@
   </div>
   <div class="d-flex flex-row gap-4">
     <div class="d-flex flex-column w-75 gap-2">
-      <cpm-event-item *ngFor="let event of eventList" [event]="event"></cpm-event-item>
+      <cpm-event-item
+        [event]="event"
+        *ngFor="let event of eventList"
+      ></cpm-event-item>
     </div>
     <div class="w-25">
       <div class="d-flex flex-column legend p-2 gap-3">
+        <label>{{ 'legenda:' | uppercase }}</label>
+        <div class="d-flex flex-row gap-2">
+          <img
+            alt="reservation icon"
+            src="../../../assets/icons/ticket-outline-primary.svg"
+          />
+          <span>Prenota</span>
+        </div>
+        <div class="d-flex flex-row gap-2">
+          <img
+              alt="more detail icon"
+              src="../../../assets/icons/expand-outline-primary.svg"
+          />
+          <span>Dettagli evento</span>
+        </div>
+        <div class="d-flex flex-row gap-2">
+          <img
+              alt="time icon"
+              src="../../../assets/icons/time-outline-primary.svg"
+          />
+          <span>Orario evento</span>
+        </div>
+        <div class="d-flex flex-row gap-2">
+          <img
+              alt="time icon"
+              src="../../../assets/icons/timer-outline-primary.svg"
+          />
+          <span>Durata evento</span>
+        </div>
         <label>{{ 'tipologia eventi:' | uppercase }}</label>
         <div class="d-flex flex-row gap-2">
-          <img src="../../../assets/icons/mic-outline-primary.svg" alt="conference icon">
+          <img
+            alt="conference icon"
+            src="../../../assets/icons/mic-outline-primary.svg"
+          />
           <span>Conferenza</span>
         </div>
         <div class="d-flex flex-row gap-2">
-          <img src="../../../assets/icons/telescope-outline-primary.svg" alt="observation icon">
+          <img
+            alt="observation icon"
+            src="../../../assets/icons/telescope-outline-primary.svg"
+          />
           <span>Osservazione</span>
         </div>
         <div class="d-flex flex-row gap-2">
-          <img src="../../../assets/icons/family-outline-primary.svg" alt="family icon">
+          <img
+            alt="family icon"
+            src="../../../assets/icons/family-outline-primary.svg"
+          />
           <span>Famiglie</span>
         </div>
         <div class="d-flex flex-row gap-2">
-          <img src="../../../assets/icons/rocket-outline-primary.svg" alt="laboratory icon">
+          <img
+            alt="laboratory icon"
+            src="../../../assets/icons/rocket-outline-primary.svg"
+          />
           <span>Laboratorio</span>
         </div>
       </div>
