@@ -8,14 +8,17 @@ export interface CpmEvent {
   subtitle?: string,
   description?: string
   date?: string,
+  day?: string,
+  month?: string,
   time?: string,
   duration?: string,
-  type?: CpmEventType
+  types?: CpmEventType[]
   locations?: CpmEventLocation[]
   firstSpeaker?: CpmEmployee
   secondSpeaker?: CpmEmployee
   jolly?: CpmEmployee
   frontDesk?: CpmEmployee
   fullPrice?: number
-  discountedPrice?: number
+  discountedPrice?: number,
+  imageUrl?: string
 }

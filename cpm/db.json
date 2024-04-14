@@ -4,11 +4,13 @@
       "id": "0001",
       "title": "Curiosando tra le stelle",
       "subtitle": "Dal Sole ai buchi neri... le tante meraviglie del cielo!",
-      "description": "no description provided",
-      "date": "2024-04-14",
+      "description": "Stelle che pulsano, esplodono e inghiottono altre stelle!! Questi e altri fenomeni, affascinanti e straordinari, che riguardano il nostro universo, verranno presentati e spiegati ai piccoli appassionati di astronomia per soddisfare la loro curiosità, poi a seguire la realizzazione di un lavoretto sul tema completerà il pomeriggio. Stelle che pulsano, stelle che ruotano velocissime e “catturano la luce”, resti di antiche esplosioni stellari e tanti oggetti straordinari del nostro universo che aspettano solo te per essere studiati! Un pomeriggio per astronomi in erba e piccoli curiosi per conoscere meglio il cielo!",
+      "date": "14",
+      "month": "apr",
+      "day": "dom",
       "time": "15:30",
       "duration": "2h",
-      "type": "FAMILY_SUNDAY",
+      "types": ["FAMILY_SUNDAY"],
       "locations": ["DOME", "CONFERENCE_ROOM"],
       "firstSpeaker": {
         "firstName": "Laura",
@@ -29,17 +31,20 @@
         "roles": ["GENERIC", "SECRETARY"]
       },
       "fullPrice": 7,
-      "discountedPrice": 5
+      "discountedPrice": 5,
+      "imageUrl": "../assets/images/curiosando.png"
     },
     {
       "id": "0002",
       "title": "La Luna al telescopio",
       "subtitle": "Sulle orme di Galileo",
-      "description": "no description provided",
-      "date": "2024-04-17",
+      "description": "Da più di quattro secoli l’uomo può apprezzare le meraviglie del cosmo attraverso il telescopio. La Luna, il corpo celeste più vicino al nostro pianeta, offre uno spettacolo unico e affascinante: i suoi crateri e i suoi rilievi, se osservati al telescopio, suscitano ancora oggi le emozioni provate da Galilei poco più di 400 anni fa, mostrandoci ancora oggi la vera natura del nostro satellite. Mercoledì 17 Aprile 2024 alle ore 21:00 il Planetario di Modena organizza un evento dedicato interamente alla Luna. In questa occasione, dopo una breve introduzione presso la cupola del Planetario, si salirà sulla terrazza dell’edificio, dove è installato il telescopio per l’osservazione astronomica. In caso di maltempo l’osservazione sarà sostituita da una conferenza sul nostro satellite presso la cupola del Planetario.",
+      "date": "17",
+      "day": "mer",
+      "month": "apr",
       "time": "21:00",
       "duration": "1h 30m",
-      "type": "OBSERVATION",
+      "types": ["CONFERENCE","OBSERVATION"],
       "locations": ["DOME", "TERRACE"],
       "firstSpeaker": {
         "firstName": "Rita",
@@ -60,17 +65,20 @@
         "roles": ["GENERIC", "SECRETARY"]
       },
       "fullPrice": 8,
-      "discountedPrice": 6
+      "discountedPrice": 6,
+      "imageUrl": "../assets/images/luna.png"
     },
     {
       "id": "0003",
       "title": "Dal cannocchiale ai telescopi spaziali",
       "subtitle": "La storia dello strumento che ha cambiato l'Astronomia",
-      "description": "no description provided",
-      "date": "2024-04-21",
+      "description": "L'uomo, fin dalla sua comparsa sulla Terra, ha rivolto gli occhi al cielo nel tentativo di svelarne i misteri. Per secoli ha cercato di spingere lo sguardo sempre più lontano, verso i più piccoli oggetti del Cosmo fino ad accorgersi che, per saziare la propria sete di conoscenza, la sola vista non bastava più. Allora, il grande scienziato Galileo Galilei studia le proprietà delle lenti e perfeziona il proprio cannocchiale al punto che, nel 1610, osserva ciò che nessuno aveva mai osservato prima, spalancando le porte della moderna Astronomia con alcune sensazionali scoperte. Da allora, l'evoluzione degli strumenti di indagine del cielo non si è mai fermata… Percorreremo insieme le tappe più significative della storia del telescopio, lo strumento che più di ogni altro ha permesso agli studiosi di tutto il mondo di osservare e comprendere ogni remoto angolo del nostro Universo (durata 1 ora circa). A seguire, se le condizioni meteo lo permettono, sarà possibile osservare il Sole con speciali telescopi in dotazione al Planetario di Modena. In alternativa, sarà proposta un’attività di laboratorio.",
+      "date": "21",
+      "month": "apr",
+      "day": "dom",
       "time": "15:30",
       "duration": "2h",
-      "type": "FAMILY_SUNDAY",
+      "types": ["FAMILY_SUNDAY"],
       "locations": ["DOME", "CONFERENCE_ROOM"],
       "firstSpeaker": {
         "firstName": "Michele",
@@ -91,7 +99,8 @@
         "roles": ["GENERIC", "SECRETARY"]
       },
       "fullPrice": 7,
-      "discountedPrice": 5
+      "discountedPrice": 5,
+      "imageUrl": "../assets/images/telescopio.png"
     }
   ],
   "employees": [
