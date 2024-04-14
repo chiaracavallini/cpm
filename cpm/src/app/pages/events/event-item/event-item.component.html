@@ -1,1 +1,21 @@
-<p>event-item works!</p>
+<div class="event-card p-2 d-flex flex-row gap-2">
+  <div class="d-flex flex-column date-col">
+    <span class="day">{{ event.day }}</span>
+    <span class="date">{{ event.date }}</span>
+    <span class="month">{{ event.month }}</span>
+  </div>
+  <div class="d-flex flex-column">
+    <span class="title">
+      {{ event.title }}
+    </span>
+    <span class="subtitle">
+      {{ event.subtitle }}
+    </span>
+    <div class="d-flex flex-row gap-2">
+      <span>
+        <i><small>con</small></i>
+      </span>
+      <span>{{ speakersLabel }}</span>
+    </div>
+  </div>
+</div>

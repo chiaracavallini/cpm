@@ -1,0 +1,20 @@
+h2,
+label {
+  color: #0082c9;
+}
+h5 {
+  color: #15324c;
+  font-style: italic;
+}
+
+.legend {
+  border: 1px solid #15324c;
+  border-radius: 5px;
+  label {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  img {
+    max-width: 25px;
+  }
+}

@@ -1,1 +1,53 @@
-<p>events works!</p>
+<div class="container mt-4">
+  <h2 class="mb-4">Eventi</h2>
+  <div class="d-flex flex-column">
+    <div class="mb-4">
+      <h5>Durata:</h5>
+      <div>La durata specificata per ogni evento è indicativa</div>
+    </div>
+    <div class="mb-4">
+      <h5>Modalità:</h5>
+      <div>
+        La prenotazione è obbligatoria ed occorre essere presenti presso la struttura del Planetario almeno 20 minuti prima dell'orario di inizio degli eventi: ad evento iniziato non è ammesso l’ingresso.<br>
+        La prenotazione è da considerarsi effettuata al ricevimento della mail di conferma.<br>
+        L'osservazione diretta del cielo tramite telescopio, per gli eventi che la prevedono, sarà svolta compatibilmente con le condizioni atmosferiche
+      </div>
+    </div>
+    <div class="mb-4">
+      <h5>Riduzioni:</h5>
+      <div>
+        Possono godere di una riduzione sul biglietto d'ingresso:
+        <ul>
+          <li>minori di 18 anni</li>
+          <li>studenti universitari</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex flex-row gap-4">
+    <div class="d-flex flex-column w-75 gap-2">
+      <cpm-event-item *ngFor="let event of eventList" [event]="event"></cpm-event-item>
+    </div>
+    <div class="w-25">
+      <div class="d-flex flex-column legend p-2 gap-3">
+        <label>{{ 'tipologia eventi:' | uppercase }}</label>
+        <div class="d-flex flex-row gap-2">
+          <img src="../../../assets/icons/mic-outline-primary.svg" alt="conference icon">
+          <span>Conferenza</span>
+        </div>
+        <div class="d-flex flex-row gap-2">
+          <img src="../../../assets/icons/telescope-outline-primary.svg" alt="observation icon">
+          <span>Osservazione</span>
+        </div>
+        <div class="d-flex flex-row gap-2">
+          <img src="../../../assets/icons/family-outline-primary.svg" alt="family icon">
+          <span>Famiglie</span>
+        </div>
+        <div class="d-flex flex-row gap-2">
+          <img src="../../../assets/icons/rocket-outline-primary.svg" alt="laboratory icon">
+          <span>Laboratorio</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
