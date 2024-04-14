@@ -1,3 +1,7 @@
 @import "bootstrap";
 $primary: #0082C9;
 $secondary: #15324C;
+
+h2 {
+  color: #{$primary};
+}
