@@ -1,0 +1,159 @@
+{
+  "events": [
+    {
+      "id": "0001",
+      "title": "Curiosando tra le stelle",
+      "subtitle": "Dal Sole ai buchi neri... le tante meraviglie del cielo!",
+      "description": "no description provided",
+      "date": "2024-04-14",
+      "time": "15:30",
+      "duration": "2h",
+      "type": "FAMILY_SUNDAY",
+      "locations": ["DOME", "CONFERENCE_ROOM"],
+      "firstSpeaker": {
+        "firstName": "Laura",
+        "lastName": "Del Pennino",
+        "fullName": "Laura Del Pennino",
+        "roles": ["GENERIC", "PLANETARIST"]
+      },
+      "secondSpeaker": {
+        "firstName": "Edoardo",
+        "lastName": "Borciani",
+        "fullName": "Edoardo Borciani",
+        "roles": ["GENERIC", "SECRETARY"]
+      },
+      "frontDesk": {
+        "firstName": "Edoardo",
+        "lastName": "Borciani",
+        "fullName": "Edoardo Borciani",
+        "roles": ["GENERIC", "SECRETARY"]
+      },
+      "fullPrice": 7,
+      "discountedPrice": 5
+    },
+    {
+      "id": "0002",
+      "title": "La Luna al telescopio",
+      "subtitle": "Sulle orme di Galileo",
+      "description": "no description provided",
+      "date": "2024-04-17",
+      "time": "21:00",
+      "duration": "1h 30m",
+      "type": "OBSERVATION",
+      "locations": ["DOME", "TERRACE"],
+      "firstSpeaker": {
+        "firstName": "Rita",
+        "lastName": "Scaffidi",
+        "fullName": "Rita Scaffidi",
+        "roles": ["SECRETARY", "GENERIC", "PLANETARIST"]
+      },
+      "jolly": {
+        "firstName": "Luca",
+        "lastName": "Reggiani",
+        "fullName": "Luca Reggiani",
+        "roles": ["GENERIC"]
+      },
+      "frontDesk": {
+        "firstName": "Gianluca",
+        "lastName": "Manni",
+        "fullName": "Gianluca Manni",
+        "roles": ["GENERIC", "SECRETARY"]
+      },
+      "fullPrice": 8,
+      "discountedPrice": 6
+    },
+    {
+      "id": "0003",
+      "title": "Dal cannocchiale ai telescopi spaziali",
+      "subtitle": "La storia dello strumento che ha cambiato l'Astronomia",
+      "description": "no description provided",
+      "date": "2024-04-21",
+      "time": "15:30",
+      "duration": "2h",
+      "type": "FAMILY_SUNDAY",
+      "locations": ["DOME", "CONFERENCE_ROOM"],
+      "firstSpeaker": {
+        "firstName": "Michele",
+        "lastName": "Donà",
+        "fullName": "Michele Donà",
+        "roles": ["GENERIC", "PLANETARIST"]
+      },
+      "secondSpeaker": {
+        "firstName": "Laura",
+        "lastName": "Gorrieri",
+        "fullName": "Laura Gorrieri",
+        "roles": ["GENERIC", "SECRETARY"]
+      },
+      "frontDesk": {
+        "firstName": "Laura",
+        "lastName": "Gorrieri",
+        "fullName": "Laura Gorrieri",
+        "roles": ["GENERIC", "SECRETARY"]
+      },
+      "fullPrice": 7,
+      "discountedPrice": 5
+    }
+  ],
+  "employees": [
+    {
+      "firstName": "Chiara",
+      "lastName": "Cavallini",
+      "fullName": "Chiara Cavallini",
+      "roles": ["SECRETARY", "GENERIC"]
+    },
+    {
+      "firstName": "Sara",
+      "lastName": "Cavallini",
+      "fullName": "Sara Cavallini",
+      "roles": ["SECRETARY", "GENERIC", "PLANETARIST"]
+    },
+    {
+      "firstName": "Rita",
+      "lastName": "Scaffidi",
+      "fullName": "Rita Scaffidi",
+      "roles": ["SECRETARY", "GENERIC", "PLANETARIST"]
+    },
+    {
+      "firstName": "Enrico",
+      "lastName": "Artioli",
+      "fullName": "Enrico Artioli",
+      "roles": ["CHIEF", "GENERIC", "SECRETARY"]
+    },
+    {
+      "firstName": "Luca",
+      "lastName": "Reggiani",
+      "fullName": "Luca Reggiani",
+      "roles": ["GENERIC"]
+    },
+    {
+      "firstName": "Gianluca",
+      "lastName": "Manni",
+      "fullName": "Gianluca Manni",
+      "roles": ["GENERIC", "SECRETARY"]
+    },
+    {
+      "firstName": "Laura",
+      "lastName": "Del Pennino",
+      "fullName": "Laura Del Pennino",
+      "roles": ["GENERIC", "PLANETARIST"]
+    },
+    {
+      "firstName": "Edoardo",
+      "lastName": "Borciani",
+      "fullName": "Edoardo Borciani",
+      "roles": ["GENERIC", "SECRETARY"]
+    },
+    {
+      "firstName": "Michele",
+      "lastName": "Donà",
+      "fullName": "Michele Donà",
+      "roles": ["GENERIC", "PLANETARIST"]
+    },
+    {
+      "firstName": "Laura",
+      "lastName": "Gorrieri",
+      "fullName": "Laura Gorrieri",
+      "roles": ["GENERIC", "SECRETARY"]
+    }
+  ]
+}
