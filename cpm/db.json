@@ -45,7 +45,7 @@
       "time": "21:00",
       "duration": "1h 30m",
       "types": ["Conferenza","Osservazione"],
-      "locations": ["DOME", "TERRACE"],
+      "locations": ["Cupola", "Terrazza"],
       "firstSpeaker": {
         "firstName": "Rita",
         "lastName": "Scaffidi",

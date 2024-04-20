@@ -12,3 +12,15 @@ h2 {
   border-color: #{$secondary} #{$primary} #{$primary} #{$secondary};
   border-radius: 5px;
 }
+
+.simple-card {
+  border: 1px solid #15324c;
+  border-radius: 5px;
+}
+
+.img-icon {
+  width: 25px;
+  &.pointer {
+    cursor: pointer;
+  }
+}

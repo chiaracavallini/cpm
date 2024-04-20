@@ -14,6 +14,7 @@ import { ContactsComponent } from './pages/contacts/contacts.component'
 import { PlanetariumComponent } from './pages/planetarium/planetarium.component'
 import { TasteComponent } from './pages/taste/taste.component'
 import { SundialsComponent } from './pages/sundials/sundials.component'
+import { ModalModule } from 'ngx-bootstrap/modal'
 
 @NgModule({
   declarations: [

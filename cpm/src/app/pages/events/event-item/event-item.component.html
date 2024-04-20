@@ -61,12 +61,15 @@
   </div>
   <div class="d-flex flex-column col-1 gap-2 align-items-end">
     <img
-      alt="time icon"
+      alt="booking icon"
       src="./assets/icons/ticket-outline-blue.svg"
+      class="img-icon pointer"
     />
     <img
-      alt="duration icon"
+      alt="detail icon"
       src="./assets/icons/expand-outline-blue.svg"
+      class="img-icon pointer"
+      (click)="openDetailModal()"
     />
   </div>
 </div>
